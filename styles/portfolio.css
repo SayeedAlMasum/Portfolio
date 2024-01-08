@@ -32,11 +32,12 @@ nav a{
 {
     color: var(--Dark-01, #181818);
     font-family: Open Sans;
-    font-size: 45px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 800; 
+    font-weight: 700; 
     line-height: normal;
     padding-left: 140px;
+    padding-right: 50px;
 }
 .btn1{
     border-radius: 5px;
@@ -48,19 +49,20 @@ color:#fff ;
 }
 .header{
     background-color:#FFF8F3;
-    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-image:  url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right, top left;
-    background-size: 200px 280px, 100px 450px;
+    background-position:  top left;
+    background-size:  100px 450px;
     background-position-y: center;
     
     
    
 }
 .first-img{
-    width: 250px;
+    width: 400px;
     height: 300px;
-   
+     padding-bottom: 50px;   
+     padding-right:0;
     
 }
 .Hi{
