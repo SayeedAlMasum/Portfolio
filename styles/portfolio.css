@@ -24,11 +24,11 @@ nav a{
     
 }
 
-.mary{
+.masum{
     color: #FD6E0A;
 
 }
-.marys-all
+.masums-all
 {
     color: var(--Dark-01, #181818);
     font-family: Open Sans;
@@ -103,9 +103,9 @@ color:#fff ;
 .main-div{
     background-color: #FFF8F3;
     height: 450px;
-    width: 700;
+    width: 700px;
     border-radius: 5px;
-    margin: 60px 140px;
+    margin: 60px 10px 60px 80px;
 
 }
 .about{
