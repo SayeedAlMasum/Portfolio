@@ -1,92 +1,79 @@
 body{
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-  
-}
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav>ul{
-    display: flex;
-    align-items: center;
-}
-nav li{
-    list-style: none;
-    margin-right: 50px;
-}
-nav a{
-    text-decoration: none;
-    
-    color:#474747;
-    
-}
-
-.masum{
-    color: #FD6E0A;
-
-}
-.masums-all
-{
-    color: var(--Dark-01, #181818);
-    font-family: Open Sans;
-    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;  
+    font-optical-sizing: auto;
     font-style: normal;
-    font-weight: 700; 
-    line-height: normal;
-    padding-left: 140px;
-    padding-right: 50px;
-    padding-top: 5%;
-}
-.btn1{
-    border-radius: 5px;
-background: #FD6E0A;
-border: 0;
-padding: 14px 30px;
-
-color:#fff ;
+    font-variation-settings:
+    "wdth" 100;
 }
 .header{
     background-color:#FFF8F3;
     background-image:  url('../images/developer.png');
     background-repeat: no-repeat;
     background-position:  top left;
-    background-size:  100px 450px;
+    background-size: 8rem 30rem;
     background-position-y: center;
-    height: auto;
-    
-    
-   
+    height: 34rem;   
 }
-.first-img{
-    width: 250px;
-    height: 350px;
-    padding-left: 32%;
-   
-     
-    
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+nav ul{
+    display: flex;
+    justify-content:right;
+    align-items:right;
+}
+nav li{
+    list-style: none;
+    margin-right: 3rem;
+}
+nav a{
+    text-decoration: none;
+    color:#474747;   
+}
+.u{
+    color: #FD6E0A;
+}
+.flex-1{
+margin-left: 12rem;
+}
+.flex-none>ul>li{
+    margin-right: 2rem;
+}
+.btn{
+    background-color: #FD6E0A;
+    color:#FFF;
+    border: none;
+}
+.btn1{
+background: #FD6E0A;
+padding: 0.9rem 1.9rem;
+color:#fff ;
+}
+.banner-content{
+    width: 25rem;
 }
 .Hi{
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 3rem;
+    font-weight: 300;
     margin:0;
 }
-.name{
-    font-size: 48px;
-    margin:0;
+.banner-title{
+    font-size: 3.5rem;
+ font-weight: 600;
 }
-.bio{
-    font-size: 15px;
-    
+.banner-description{
+    font-size: 1rem;    
 }
-.first-div{
+.banner{
   display: flex;
-  padding: 30px 30px 30px 140px;
+  justify-content: space-between;
+  margin: 0 2rem 0 12.5rem;  
 }
-.second-div{ 
-  
+.banner-profile-pic{
+    height: 24rem;
+    width: 17rem; 
 }
 .btn2{
  width:150px;
@@ -236,6 +223,8 @@ flex-direction: column;
     .btn4{
         flex-direction: column;
     }
-
+    .masum-img{
+        flex-direction: column;
+    }
    
 }
