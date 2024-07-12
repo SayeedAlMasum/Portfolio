@@ -23,6 +23,10 @@
     padding: 1.125rem 2.188rem;
     border-radius: 5px;
 }
+.btn-primary:hover{
+background-color:#c4bbbb;
+color: #FD6E0A;
+}
 .section-title{
     font-size:2.188rem;
     font-weight: bold;
@@ -66,6 +70,7 @@ nav li a{
     display: flex;
     justify-content: space-between;
     margin: 0 2.188rem 0 12.5rem;  
+  
 }
 .banner-content{
     max-width: 36.25rem;
@@ -79,8 +84,8 @@ nav li a{
  font-weight:bold;
 }
 .banner-profile-pic{
-    height:fit-content;
-    width: 36.25rem; 
+  
+    width: 25rem; 
 }
 main{
     max-width:71.25rem;
